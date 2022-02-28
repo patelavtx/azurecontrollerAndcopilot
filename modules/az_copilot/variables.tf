@@ -48,7 +48,7 @@ variable "virtual_machine_admin_password" {
 variable "virtual_machine_size" {
   type        = string
   description = "Virtual Machine size for the copilot"
-  default     = "Standard_A4_v2"
+  default     = "Standard_B1ms"
 }
 
 variable allowed_cidrs {

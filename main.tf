@@ -27,7 +27,7 @@ module "aviatrix_controller_initialize" {
   avx_controller_private_ip     = module.aviatrix_controller_build.aviatrix_controller_private_ip_address
   avx_controller_admin_email    = var.avx_controller_admin_email
   avx_controller_admin_password = var.avx_controller_admin_password
-  arm_subscription_id           = var.azure_subscription_id
+  arm_subscription_id           = var.arm_subscription_id
   arm_application_id            = var.azure_application_id
   arm_application_key           = var.azure_application_key
   directory_id                  = var.azure_directory_id

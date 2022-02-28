@@ -30,7 +30,7 @@ variable "controller_virtual_machine_admin_password" {
 variable "controller_virtual_machine_size" {
   type        = string
   description = "Virtual Machine size for the controller."
-  default     = "Standard_A4_v2"
+  default     = "Standard_B1ms"
 }
 
 variable "incoming_ssl_cidr" {

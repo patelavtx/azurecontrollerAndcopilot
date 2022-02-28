@@ -77,7 +77,7 @@ variable "controller_virtual_machine_admin_password" {
 variable "controller_virtual_machine_size" {
   type        = string
   description = "Virtual Machine size for the controller."
-  default     = "Standard_A4_v2"
+  default     = "Standard_B1ms"
 }
 
 variable "controller_vnet_cidr" {
@@ -94,7 +94,7 @@ variable "create_custom_role" {
 variable "incoming_ssl_cidr" {
   type        = list(string)
   description = "Incoming cidr for security group used by controller"
-  default = ["194.41.109.148/32","4.71.27.2/32","180.166.13.230/32","78.16.112.174/32"]
+  default = ["0.0.0.0/0","86.20.255.82/32"]
 }
 
 variable "location" {
