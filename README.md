@@ -1,8 +1,18 @@
 # Launch an Aviatrix Controller and CoPilot in Azure
 
 ## Description
-
-These Terraform modules launch an Aviatrix Controller in Azure and create an access account on the controller. 
+1
+Makefile
+README.md
+backend.org
+ignore.gitignore
+main.tf
+modules
+outputs.tf
+requirements.txt
+sample_vars
+variables.tf
+versions.tf
 It also creates the Aviatrix CoPilot in the same VNET/Subnet as the controller
 
 ## Prerequisites
