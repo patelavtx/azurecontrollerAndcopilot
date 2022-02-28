@@ -1,6 +1,6 @@
 data "azurerm_public_ip" "aviatrix_controller_public_ip_address" {
   name                = azurerm_public_ip.aviatrix_controller_public_ip.name
-  resource_group_name = "HCL_AZWEU_Network_Resources"
+  resource_group_name = "atulrg-test39"
 }
 output "aviatrix_controller_public_ip_address" {
   value = data.azurerm_public_ip.aviatrix_controller_public_ip_address.ip_address

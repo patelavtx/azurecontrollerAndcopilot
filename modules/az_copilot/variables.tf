@@ -32,7 +32,7 @@ variable use_existing_vnet {
 
 variable "resource_group_name" {
   description = "Resource group name, only required when use_existing_vnet is true"
-  default = "HCL_AZWEU_Network_Resources"
+  default = "atulrg-test39"
 }
 
 variable "virtual_machine_admin_username" {

@@ -12,7 +12,7 @@ variable "controller_name" {
 variable "resource_group_name" {
   type = string
   description = "Existing Resource group name"
-  default = "HCL_AZWEU_Network_Resources"
+  default = "atulrg-test39"
 }
 
 variable "controller_virtual_machine_admin_username" {

@@ -1,7 +1,7 @@
 data "azurerm_subnet" "ctrl_sub" {
-  name                 = "avsubnet"
-  virtual_network_name = "AZWEUVNET03"
-  resource_group_name  = "HCL_AZWEU_Network_Resources"
+  name                 = "atulsub0"
+  virtual_network_name = "atulvnet_test39"
+  resource_group_name  = "atulrg-test39"
 }
 
 # resource "azurerm_marketplace_agreement" "aviatrix-controller" {

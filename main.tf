@@ -49,7 +49,7 @@ module "copilot_build_azure" {
   controller_name                = var.controller_name
   vnet_cidr                      = var.controller_vnet_cidr
   subnet_cidr                    = var.controller_subnet_cidr
-  resource_group_name            = "HCL_AZWEU_Network_Resources"
+  resource_group_name            = "atulrg-test39"
 
   allowed_cidrs = {
     "tcp_cidrs" = {
